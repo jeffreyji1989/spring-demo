@@ -1,6 +1,6 @@
-package com.china.springcloud.feign.web;
+package com.china.springcloud.feign.hystrix.web;
 
-import com.china.springcloud.feign.service.ComputeClient;
+import com.china.springcloud.feign.hystrix.service.ComputeClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

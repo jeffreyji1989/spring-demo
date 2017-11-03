@@ -1,11 +1,11 @@
 spring:
   application:
-    name: 服务B
+    name: eureka-client-b
 
 server:
    context-path: /
    port: 9991
-   display-name: 服务B
+   display-name: service-b
 
 
 

@@ -1,11 +1,11 @@
 spring:
   application:
-    name: compute-service
+    name: eureka-client-a
 
 server:
    context-path: /
    port: 9990
-   display-name: 服务A
+   display-name: service-a
 
 
 

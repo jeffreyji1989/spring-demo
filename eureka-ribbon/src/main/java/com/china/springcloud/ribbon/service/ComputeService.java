@@ -17,7 +17,7 @@ public class ComputeService {
     public String addService() {
         int a = 100;
         int b= 200;
-        return restTemplate.getForEntity("http://compute-service/add?a=" + a + "&b=" + b, String.class).getBody();
+        return restTemplate.getForEntity("http://eureka-client-a/add?a=" + a + "&b=" + b, String.class).getBody();
     }
 
     public String addServiceFallback() {

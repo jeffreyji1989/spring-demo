@@ -3,9 +3,7 @@ spring:
     name: feign-server
 
 server:
-   context-path: /
    port: 9200
-   display-name: feign-server
 
 eureka:
   client:
