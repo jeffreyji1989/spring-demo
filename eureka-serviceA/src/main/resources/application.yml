@@ -4,12 +4,9 @@ spring:
 
 server:
    context-path: /
-   port: 9990
-   display-name: service-a
-
-
+   port: 9100
 
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:9000/eureka/
+      defaultZone: http://192.168.0.110:9000/eureka/
